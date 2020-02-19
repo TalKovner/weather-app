@@ -1,0 +1,11 @@
+.navbar {
+    padding: 5px 10px;
+    text-align: center;
+    background-color: #2b244d;
+    color: white;
+}
+
+#menu-icon {
+    float: left;
+    transform: translate(0%,-8%);
+}

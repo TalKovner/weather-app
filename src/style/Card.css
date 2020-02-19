@@ -1,0 +1,14 @@
+.card {
+    width: 180px;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.title {
+    text-align: center;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    font-size: 15px;
+    font-weight: lighter;
+}
