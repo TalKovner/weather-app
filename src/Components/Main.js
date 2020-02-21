@@ -5,9 +5,9 @@ import '../style/Main.css'
 function Main() {
     return (
         <div className="main">
-            <Card title="ISRAEL"/>
-            <Card title="FRANCE"/>
-            <Card title="ADD CITY"/>
+            <Card city="Bnei Brak" />
+            <Card city="new york" />
+            <Card city="paris" />
         </div>
     )
 }
