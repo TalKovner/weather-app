@@ -31,6 +31,7 @@ class Card extends Component {
     }
 
     render() {
+        console.log(this.props.city)
         return (
             <div className="card">
                 <h4 className='title'>{this.props.city.toUpperCase()}</h4>

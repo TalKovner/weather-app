@@ -1,0 +1,15 @@
+.plus-icon {
+    text-align: center;
+    color: #7effcc;
+    background-color: #f5f8ff;
+    margin: 0 38px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.plus {
+    font-size: 77px;
+    font-weight: lighter;
+    position: relative;
+    bottom: 8px;
+}
