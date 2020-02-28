@@ -31,16 +31,19 @@ class Card extends Component {
     }
 
     render() {
-        console.log(this.props.city)
+        // console.log(this.props.city)
         return (
             <div className="card">
-                <h4 className='title'>{this.props.city.toUpperCase()}</h4>
-                <img className="icon" src="http://openweathermap.org/img/wn/02d@2x.png" alt={`${this.state.iconDescription}`}></img>
-                <div className="deg-main">{this.state.temp}&deg;</div>
-                <div className="main-description">{this.state.mainDescription}</div>
-                <div className="minmax-container">
-                    <MinMaxTemp temp={this.state.minTemp} iconName="arrow_drop_down" tempDesc="Min" color="aqua" />
-                    <MinMaxTemp temp={this.state.maxTemp} iconName="arrow_drop_up" tempDesc="Max" color="red" />
+                <i className="material-icons trash-icon" onClick={() => this.props.removeCity(this.props.city)}>delete</i>
+                <div onClick={() => this.props.toggleCards(false, this.props.city)}>
+                    <h4 className='title'>{this.props.city.toUpperCase()}</h4>
+                    <img className="icon" src="http://openweathermap.org/img/wn/02d@2x.png" alt={`${this.state.iconDescription}`}></img>
+                    <div className="deg-main">{this.state.temp}&deg;</div>
+                    <div className="main-description">{this.state.mainDescription}</div>
+                    <div className="minmax-container">
+                        <MinMaxTemp temp={this.state.minTemp} iconName="arrow_drop_down" tempDesc="Min" color="aqua" />
+                        <MinMaxTemp temp={this.state.maxTemp} iconName="arrow_drop_up" tempDesc="Max" color="red" />
+                    </div>
                 </div>
             </div>
         )

@@ -4,6 +4,8 @@
     border-radius: 20px;
     box-shadow: 0 0 8px 0px #cccccc;
     margin: 0 0 19px 26px;
+    position: relative;
+    cursor: pointer;
 }
 
 .title {
@@ -32,4 +34,22 @@
     font-weight: lighter;
     font-size: 14px;
     letter-spacing: 3px;
+}
+
+.trash-icon {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 20px;
+    color: #CCCCCC;
+    display: none;
+    cursor: pointer;
+}
+
+.card:hover > .trash-icon {
+    display: block;
+}
+
+.trash-icon:hover {
+    color: black;
 }

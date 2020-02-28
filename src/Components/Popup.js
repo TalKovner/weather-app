@@ -33,8 +33,8 @@ class Popup extends React.Component {
         return (
             <div className='popup'>
                 <div className='popup_inner'>
-                    <label for="city" className="label-city">Select City</label>
-                    <input type="text" name="city" placeholder="Choose City..." className="input-city" onChange={(event) => { this.findCity(event.currentTarget.value) }}></input>
+                    <label htmlFor="city" className="label-city"></label>
+                    <input type="text" name="city" placeholder="Select City" className="input-city" onChange={(event) => { this.findCity(event.currentTarget.value) }}></input>
                     { this.state.showWarn ? <p className="warning">city not found</p> : null }
                     <button onClick={() => {
                         this.props.addNewCity(this.state.cityToAdd);

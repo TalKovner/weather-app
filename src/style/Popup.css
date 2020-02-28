@@ -11,19 +11,24 @@
 }  
 
 .popup_inner {  
-  position: absolute;  
-  left: 25%;  
-  right: 25%;  
-  top: 25%;  
-  bottom: 25%;  
-  margin: auto;  
-  border-radius: 20px;  
-  background: white;  
+  position: absolute;
+  left: 25%;
+  right: 25%;
+  top: 25%;
+  bottom: 25%;
+  width: 286px;
+  height: 194px;
+  margin: auto;
+  border-radius: 20px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; 
 }
 
 .label-city, .input-city, .close-button {
   display: block;
-  margin: 26px;
+    margin: 12px 24px
 }
 
 .input-city {
@@ -37,7 +42,7 @@
   border: none;
   background: #5a5ae4;
   color: white;
-  padding: 5px 8px; 
+  padding: 7px 13px; 
   border-radius: 19px
 }
 

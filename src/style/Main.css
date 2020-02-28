@@ -2,7 +2,7 @@
     padding: 40px 40px;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap-reverse;
+    flex-wrap: wrap;
     margin: 13px 20px;
     overflow: auto;
 }
