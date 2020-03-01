@@ -1,9 +1,9 @@
 .main {
-    padding: 40px 40px;
+    padding: 60px 60px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin: 13px 20px;
+    margin: 19.5px 30px;
     overflow: auto;
 }
 

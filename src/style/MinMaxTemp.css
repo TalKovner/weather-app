@@ -1,9 +1,10 @@
 .minmax-container {
     display: flex;
     justify-content: space-between;
-    margin: 5px 29px;
+    margin: 29.5px 43.5px;
     text-align: center;
     font-weight: lighter;
+    font-size: 24px;
 }
 
 .minmax {

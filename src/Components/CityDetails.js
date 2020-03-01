@@ -30,7 +30,7 @@ class CityDetails extends Component {
 
     render() {
         return (
-            <div className='city-details'>
+            <div className='rubberBand city-details'>
                 <div className='up-section'>
                     <div className='extend-data'>
                         {this.state.temp}&deg;
@@ -40,7 +40,7 @@ class CityDetails extends Component {
                                 <div>HUMIDITY</div>
                                 {this.state.humidity}%
                             </span>
-                            <span>
+                            <span className="wind">
                                 <div>WIND</div>
                                 {this.state.wind} K / M
                             </span>
@@ -51,7 +51,7 @@ class CityDetails extends Component {
                     </div>
                 </div>
                 <div className='down-section'>
-                    <WeeklyWeather />
+                    <WeeklyWeather city={this.props.city}/>
                 </div>
             </div>
         )

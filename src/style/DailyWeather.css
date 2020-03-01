@@ -1,0 +1,21 @@
+.daily-container {
+    text-align: center;
+}
+
+.day-in-week {
+    font-weight: bolder;
+}
+
+.daily-icon {
+    width: 94.5px;
+    margin: 37.5px 0;
+}
+
+.daily-deg {
+    margin: 0 0 12px 0;
+    font-weight: bolder;
+}
+
+.daily-condition {
+    font-size: 15px;
+}

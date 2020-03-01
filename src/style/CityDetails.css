@@ -1,16 +1,16 @@
 .city-details {
     width: 86%;
-    height: 366px;
+    height: 549px;
     border-radius: 20px;
     box-shadow: 0 0 8px 0px #cccccc;
-    padding: 74px 0px 0px 0px;
+    padding: 88px 0px 18px 0px;
 }
 
 .up-section {
     display: flex;
     justify-content: space-between;
-    padding: 0px 172px 32px 161px;
-    margin-top: -11px;
+    padding: 0px 258px 48px 184px;
+    margin-top: -5px;
     border-bottom: 1px solid #e7e7e7;
 }
 
@@ -19,35 +19,121 @@
 }
 
 .extend-data {
-    width: 153px;
-    font-size: 61px;
+    width: 292.5px;
+    font-size: 93px;
     font-weight: lighter;
     text-align: center;
-    margin-top: -39px;
-    margin-left: 66px;
+    margin-top: -58.5px;
+    margin-left: 99px;
 }
 
 .other-data {
     display: flex;
-    font-size: 9px;
+    font-size: 13.5px;
     justify-content: space-between;
     /* border-right: 1px solid #bfbfbf; */
 }
 
 .city-name {
     border-bottom: 1px solid black;
-    height: 24px;
+    height: 36px;
     letter-spacing: 5px;
+    font-size: 24px;
 }
 
 .condition {
     font-weight: lighter;
-    font-size: 23px;
-    letter-spacing: 2px;
-    margin-bottom: 13px;
+    font-size: 34.5px;
+    letter-spacing: 3px;
+    margin-bottom: 19.5px;
 }
 
 .humidity {
-    border-right: 1px solid #bfbfbf;;
-    padding-right: 39px;
+    border-right: 1px solid #bfbfbf;
+    /* padding-right: 39px; */
+    width: 50%;
 }
+
+.wind {
+    width: 50%;
+}
+
+@-webkit-keyframes rubberBand {
+    from {
+      -webkit-transform: scale3d(1, 1, 1);
+      transform: scale3d(1, 1, 1);
+    }
+  
+    30% {
+      -webkit-transform: scale3d(1.25, 0.75, 1);
+      transform: scale3d(1.25, 0.75, 1);
+    }
+  
+    40% {
+      -webkit-transform: scale3d(0.75, 1.25, 1);
+      transform: scale3d(0.75, 1.25, 1);
+    }
+  
+    50% {
+      -webkit-transform: scale3d(1.15, 0.85, 1);
+      transform: scale3d(1.15, 0.85, 1);
+    }
+  
+    65% {
+      -webkit-transform: scale3d(0.95, 1.05, 1);
+      transform: scale3d(0.95, 1.05, 1);
+    }
+  
+    75% {
+      -webkit-transform: scale3d(1.05, 0.95, 1);
+      transform: scale3d(1.05, 0.95, 1);
+    }
+  
+    to {
+      -webkit-transform: scale3d(1, 1, 1);
+      transform: scale3d(1, 1, 1);
+    }
+  }
+  
+  @keyframes rubberBand {
+    from {
+      -webkit-transform: scale3d(1, 1, 1);
+      transform: scale3d(1, 1, 1);
+    }
+  
+    30% {
+      -webkit-transform: scale3d(1.25, 0.75, 1);
+      transform: scale3d(1.25, 0.75, 1);
+    }
+  
+    40% {
+      -webkit-transform: scale3d(0.75, 1.25, 1);
+      transform: scale3d(0.75, 1.25, 1);
+    }
+  
+    50% {
+      -webkit-transform: scale3d(1.15, 0.85, 1);
+      transform: scale3d(1.15, 0.85, 1);
+    }
+  
+    65% {
+      -webkit-transform: scale3d(0.95, 1.05, 1);
+      transform: scale3d(0.95, 1.05, 1);
+    }
+  
+    75% {
+      -webkit-transform: scale3d(1.05, 0.95, 1);
+      transform: scale3d(1.05, 0.95, 1);
+    }
+  
+    to {
+      -webkit-transform: scale3d(1, 1, 1);
+      transform: scale3d(1, 1, 1);
+    }
+  }
+  
+  .rubberBand {
+    -webkit-animation-name: rubberBand;
+    animation-name: rubberBand;
+    animation-duration: 1.5s;
+  }

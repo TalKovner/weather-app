@@ -2,8 +2,9 @@ import React, { Component } from 'react';
 import Card from './Card'
 import Popup from './Popup'
 import CityDetails from './CityDetails'
+import AddCity from './AddCity';
+import BackButton from './BackButton';
 import '../style/Main.css'
-import AddCity from './AddCity'
 
 // let cities = ["Bnei Brak", "new york", "paris"];
 
@@ -57,8 +58,6 @@ class Main extends Component {
             showCards: istoggle,
             cityOnFocus: city, 
         });
-
-        console.log(city)
     }
 
     render() {
@@ -84,6 +83,7 @@ class Main extends Component {
                         />
                     : null
                 }
+                { !this.state.showCards ? <BackButton back={this.toggleCards.bind(this)}/> : null }
                 { !this.state.showCards ? <CityDetails city={this.state.cityOnFocus}/> : null }
 
             </div>

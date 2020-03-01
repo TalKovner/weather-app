@@ -1,0 +1,8 @@
+.back-button {
+    box-shadow: 0 0 8px 0px #cccccc;
+    height: 26px;
+    padding: 6px;
+    border-radius: 50px;
+    margin: 0 23px 0 0;
+    cursor: pointer;
+}

@@ -1,6 +1,6 @@
 .card {
-    width: 180px;
-    height: 300px;
+    width: 270px;
+    height: 450px;
     border-radius: 20px;
     box-shadow: 0 0 8px 0px #cccccc;
     margin: 0 0 19px 26px;
@@ -12,7 +12,7 @@
     text-align: center;
     letter-spacing: 2px;
     word-spacing: 2px;
-    font-size: 15px;
+    font-size: 22.5px;
     font-weight: lighter;
 }
 
@@ -20,6 +20,7 @@
     text-align: center;
     font-size: 37px;
     font-weight: lighter;
+    margin: 16px 0 0 0;
 }
 
 .icon {
@@ -32,7 +33,7 @@
 .main-description {
     text-align: center;
     font-weight: lighter;
-    font-size: 14px;
+    font-size: 21px;
     letter-spacing: 3px;
 }
 
@@ -44,6 +45,7 @@
     color: #CCCCCC;
     display: none;
     cursor: pointer;
+    font-size: 39px;
 }
 
 .card:hover > .trash-icon {
@@ -53,3 +55,4 @@
 .trash-icon:hover {
     color: black;
 }
+

@@ -39,8 +39,8 @@ class Popup extends React.Component {
                     <button onClick={() => {
                         this.props.addNewCity(this.state.cityToAdd);
                         this.props.closePopup();
-                    }} className="close-button" disabled={ this.state.isDisabled }>ADD CITY</button>
-                    <button onClick={this.props.closePopup} className="close-button">close me</button>
+                    }} className="add-button" disabled={ this.state.isDisabled }>ADD CITY</button>
+                    <button onClick={this.props.closePopup} className="close-button">CLOSE ME</button>
                 </div>
             </div>
         );
