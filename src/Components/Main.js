@@ -27,7 +27,7 @@ class Main extends Component {
             cityOnFocus: ''
         };
     }
-    // let popUp = React.createRef();
+    
     togglePopup() {
         this.setState({
             showPopup: !this.state.showPopup

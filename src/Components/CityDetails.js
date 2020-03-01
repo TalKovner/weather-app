@@ -15,7 +15,6 @@ class CityDetails extends Component {
     }
 
     componentDidMount() {
-        window.history.pushState(0 ,"", `${this.props.city}/detalis`);
         this.apiUrl = `http://api.openweathermap.org/data/2.5/weather?q=${encodeURI(this.props.city)}&appid=a8e13f64a58d15932c151dfc791e4d96`;
         axios.get(this.apiUrl).then(res => {
             const weatherObj = res.data;
