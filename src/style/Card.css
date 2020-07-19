@@ -8,7 +8,7 @@
     cursor: pointer;
 }
 
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 400px) {
     .card {
         margin: 0 0 19px 0;
     }

@@ -140,7 +140,7 @@
     animation-duration: 1.5s;
   }
 
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 400px) {
   .city-details {
     width: 296px;
     height: auto;
