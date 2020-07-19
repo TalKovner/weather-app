@@ -6,7 +6,7 @@
     text-align: center;
 }
 
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 400px) {
     .info {
         margin: 19px auto 0;
     }
