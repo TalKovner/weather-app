@@ -32,7 +32,7 @@ class CityDetails extends Component {
             <div className='rubberBand city-details'>
                 <div className='up-section'>
                     <div className='extend-data'>
-                        {this.state.temp}&deg;
+                        <div className='the-deg'>{this.state.temp}&deg;</div>
                         <div className="condition">{this.state.mainDescription}</div>
                         <div className='other-data'>
                             <span className="humidity">
