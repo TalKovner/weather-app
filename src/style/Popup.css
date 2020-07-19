@@ -26,6 +26,12 @@
   justify-content: flex-start; 
 }
 
+@media only screen and (max-width: 600px) {
+  .popup_inner {
+    left: 11%;
+  }
+}
+
 .label-city, .input-city, .close-button, .add-button {
   display: block;
     margin: 12px 24px

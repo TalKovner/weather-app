@@ -6,16 +6,18 @@
     padding: 88px 0px 18px 0px;
 }
 
+
 .up-section {
-    display: flex;
-    justify-content: space-between;
-    padding: 0px 258px 48px 184px;
-    margin-top: -5px;
-    border-bottom: 1px solid #e7e7e7;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 258px 48px 184px;
+  margin-top: -5px;
+  border-bottom: 1px solid #e7e7e7;
 }
 
-.down-section {
 
+.down-section {
+  
 }
 
 .extend-data {
@@ -25,9 +27,9 @@
     text-align: center;
     margin-top: -58.5px;
     margin-left: 99px;
-}
+  }
 
-.other-data {
+  .other-data {
     display: flex;
     font-size: 13.5px;
     justify-content: space-between;
@@ -35,30 +37,30 @@
 }
 
 .city-name {
-    border-bottom: 1px solid black;
-    height: 36px;
+  height: 36px;
     letter-spacing: 5px;
     font-size: 24px;
+    text-decoration: underline;
 }
 
 .condition {
-    font-weight: lighter;
+  font-weight: lighter;
     font-size: 34.5px;
     letter-spacing: 3px;
     margin-bottom: 19.5px;
-}
+  }
 
-.humidity {
+  .humidity {
     border-right: 1px solid #bfbfbf;
     /* padding-right: 39px; */
     width: 50%;
-}
-
-.wind {
+  }
+  
+  .wind {
     width: 50%;
-}
-
-@-webkit-keyframes rubberBand {
+  }
+  
+  @-webkit-keyframes rubberBand {
     from {
       -webkit-transform: scale3d(1, 1, 1);
       transform: scale3d(1, 1, 1);
@@ -105,7 +107,7 @@
       -webkit-transform: scale3d(1.25, 0.75, 1);
       transform: scale3d(1.25, 0.75, 1);
     }
-  
+    
     40% {
       -webkit-transform: scale3d(0.75, 1.25, 1);
       transform: scale3d(0.75, 1.25, 1);
@@ -120,12 +122,12 @@
       -webkit-transform: scale3d(0.95, 1.05, 1);
       transform: scale3d(0.95, 1.05, 1);
     }
-  
+    
     75% {
       -webkit-transform: scale3d(1.05, 0.95, 1);
       transform: scale3d(1.05, 0.95, 1);
     }
-  
+    
     to {
       -webkit-transform: scale3d(1, 1, 1);
       transform: scale3d(1, 1, 1);
@@ -137,3 +139,36 @@
     animation-name: rubberBand;
     animation-duration: 1.5s;
   }
+
+@media only screen and (max-width: 360px) {
+  .city-details {
+    width: 296px;
+    height: auto;
+  }
+
+  .up-section {
+    border-bottom: none;
+    flex-flow: column;
+    padding: 0;
+  }
+
+  .city-name {
+    margin: 0 auto;
+    padding-top: 17px;
+  }
+
+  .other-data {
+    position: relative;
+    right: 92px;
+  }
+
+  .condition {
+    position: relative;
+    right: 97px;
+  }
+
+  .the-deg {
+    position: relative;
+    right: 80px
+  }
+}

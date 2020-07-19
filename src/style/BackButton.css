@@ -6,3 +6,9 @@
     margin: 0 23px 0 0;
     cursor: pointer;
 }
+
+@media only screen and (max-width: 360px) {
+    .back-button {
+        margin: 0 23px 15px 0;
+    }
+}

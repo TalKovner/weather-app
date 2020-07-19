@@ -2,6 +2,15 @@
     text-align: center;
 }
 
+@media only screen and (max-width: 360px) {
+    .daily-container {
+        padding-top: 25px;
+        margin-top: 23px;
+        border-top: 1px solid #80808030;
+    }
+}
+
+
 .day-in-week {
     font-weight: bolder;
 }
