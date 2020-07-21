@@ -86,7 +86,7 @@
     animation-duration: 1s;
   }
 
-  @media only screen and (max-width: 400px) {
+  @media only screen and (max-width: 550px) {
     .plus {
       bottom: 11px;
       left: 1px;
