@@ -5,7 +5,7 @@ function Footer() {
     return (
         <div className="info">
             <p>created by Tal Kovner</p>
-            <p>February 2020</p>
+            <p>August 2020</p>
         </div>
     )
 }
